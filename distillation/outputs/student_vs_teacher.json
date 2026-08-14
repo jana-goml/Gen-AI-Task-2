@@ -1,0 +1,195 @@
+{
+  "summary": {
+    "teacher_total_params": 760547328,
+    "student_total_params": 750979072,
+    "param_reduction_pct": 1.3,
+    "avg_teacher_rouge_l": 0.0,
+    "avg_student_rouge_l": 0.0,
+    "quality_gap": 0.0,
+    "avg_teacher_latency_s": 1.223,
+    "avg_student_latency_s": 1.224,
+    "speedup_x": 1.0
+  },
+  "examples": [
+    {
+      "prompt": "Can I change the name of my CloudDesk workspace?",
+      "teacher_answer": "Yes, you can change the workspace name. Navigate to Settings > Workspace > Workspace Name.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 2.673,
+      "student_answer": "Go to your workspace settings. Click the three dots in the top right corner and select \"Settings.\" Scroll down and find the \"Workspace name\" section. Click \"Edit\" and enter your desired workspace name.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.519
+    },
+    {
+      "prompt": "Can I remove a team member from my workspace?",
+      "teacher_answer": "You can remove a team member from your workspace from your workspace settings.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.558,
+      "student_answer": "You can remove a team member from your workspace through the **Admin** section of their profile.",
+      "student_rouge_l": null,
+      "student_latency_s": 0.631
+    },
+    {
+      "prompt": "How do I invite someone to my CloudDesk workspace?",
+      "teacher_answer": "Invite someone to your workspace by following these steps:\n\n1. Log in to your account.\n2. Click on the three dots next to the workspace.\n3. Select \"Invite users.\"\n4. Enter the user's email address.\n5. Choose their role and invite them to the workspace.\n\nThe invited user will receive an invitation email with instructions on how to join the workspace.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 2.56,
+      "student_answer": "You can invite a user to your workspace by sending them a link to your CloudDesk workspace. This link will contain the workspace details, including the workspace name, access rights, and permissions.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.214
+    },
+    {
+      "prompt": "Can I change a user's role?",
+      "teacher_answer": "The user role can be changed using the user settings. First, make sure the user has the necessary permissions to make changes. Then, go to the user's profile, click on the gear icon, and select \"Change role\". The user's new role will be displayed.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 2.4,
+      "student_answer": "Roles can be changed. To update a user's role, follow the \"Permissions\" link in the user's profile settings.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.104
+    },
+    {
+      "prompt": "What should I do if I forget my CloudDesk password?",
+      "teacher_answer": "To regain access to your account, follow the recovery instructions provided by CloudDesk. They may offer password reset options or verify your identity through an account recovery process.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.237,
+      "student_answer": "To recover your password, follow these steps:\n\n1. Sign in to your account on the website.\n2. Click on the \"Forgot Password\" or \"Change Password\" button.\n3. Enter your email address associated with your account.\n4. Follow the instructions to reset your password.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.724
+    },
+    {
+      "prompt": "Why haven't I received my password reset email?",
+      "teacher_answer": "Check your spam folder and ensure that the email address associated with your account is correctly entered. If you still can't find it, try checking your inbox for the password reset email.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.304,
+      "student_answer": "If you didn't receive a password reset email, check if your email address is correct. Also, make sure you're not blocking your email address from CloudDesk.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.062
+    },
+    {
+      "prompt": "Can I enable two-factor authentication on my account?",
+      "teacher_answer": "Yes, you can add two-factor authentication (2FA) to your account. Follow the instructions provided by the service provider to enable 2FA, and then follow the recovery steps to verify your account.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.452,
+      "student_answer": "Two-factor authentication (2FA) is not currently available on CloudDesk.",
+      "student_rouge_l": null,
+      "student_latency_s": 0.535
+    },
+    {
+      "prompt": "How can I sign out of CloudDesk on other devices?",
+      "teacher_answer": "Signing out from other devices can help secure your account. Sign out from all devices connected to your account.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.838,
+      "student_answer": "Signing out on other devices is usually a straightforward process. On mobile devices, you can sign out by opening the CloudDesk app and clicking on your profile picture in the top right corner, then selecting \"Sign out\" from the dropdown menu.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.482
+    },
+    {
+      "prompt": "Why is my CloudDesk dashboard not loading?",
+      "teacher_answer": "Try refreshing the page or clearing the cache. If issues persist, contact CloudDesk support.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.901,
+      "student_answer": "Try refreshing the page or clearing your browser cache. If the issue persists, check the internet connection or ensure your browser is up to date.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.186
+    },
+    {
+      "prompt": "What should I do if my changes aren't being saved?",
+      "teacher_answer": "Check if the changes are saved by refreshing the page or checking the cache. If it's still not saved, try closing and reopening the application.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.249,
+      "student_answer": "Try refreshing the page, or wait a few seconds to see if the changes stick. If that doesn't work, try saving the changes from the top of the page.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.064
+    },
+    {
+      "prompt": "Can I connect CloudDesk to Slack?",
+      "teacher_answer": "Yes, CloudDesk supports integration with popular services like Slack. You can find instructions on how to connect CloudDesk to your Slack workspace in the CloudDesk integration documentation.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.203,
+      "student_answer": "Yes, you can connect CloudDesk to Slack. You can do this by creating a new workspace in Slack and then linking it to your CloudDesk account.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.001
+    },
+    {
+      "prompt": "What should I do if an integration stops working?",
+      "teacher_answer": "If an integration stops working, check the latest documentation for troubleshooting steps. If the issue persists, try the steps below. Contact support if the problem isn't resolved.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.213,
+      "student_answer": "If an integration stops working, try the following troubleshooting steps:\n\n* Check the integration configuration and ensure it matches the requirements.\n* Verify the integration is enabled and configured correctly.\n* Restart the integration and any dependent services.\n* Check the logs to identify the cause of the issue.\n\nIf none of these steps resolve the issue, contact support for further assistance.",
+      "student_rouge_l": null,
+      "student_latency_s": 2.093
+    },
+    {
+      "prompt": "Can I upgrade my CloudDesk subscription?",
+      "teacher_answer": "You can check the subscription status in your account settings. Available subscriptions are listed in the subscriptions section of your account.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.827,
+      "student_answer": "You can upgrade your subscription if the new plan aligns with your needs and budget. Check your account for available upgrades.",
+      "student_rouge_l": null,
+      "student_latency_s": 0.761
+    },
+    {
+      "prompt": "Where can I find my CloudDesk invoices?",
+      "teacher_answer": "Check the Billing section in your account settings. It should show the invoice date, amount, and due date for the current billing cycle.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.023,
+      "student_answer": "You can find your invoices in the \"Billing\" section of your account. Once you log in, click on your profile picture in the top right corner, then select \"Billing\" from the dropdown menu. Your invoices will be listed there.",
+      "student_rouge_l": null,
+      "student_latency_s": 2.058
+    },
+    {
+      "prompt": "What should I do if my subscription payment fails?",
+      "teacher_answer": "Contact the payment gateway's customer support. They'll help resolve the issue.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.886,
+      "student_answer": "If your payment fails, contact CloudDesk's customer support team. You'll be asked to provide payment details and verify your subscription. If you have any issues, try logging in to your account, and check if your payment was rejected due to a payment error.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.603
+    },
+    {
+      "prompt": "Can I export my CloudDesk workspace data?",
+      "teacher_answer": "Exporting workspace data can be done through the Workspace settings page.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.522,
+      "student_answer": "Yes, you can export your workspace data. To do this, navigate to your workspace settings, then click on \"Settings,\" and finally select \"Export workspace.\" CloudDesk will provide you with the necessary files for data export.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.396
+    },
+    {
+      "prompt": "Why can't I access a particular CloudDesk feature?",
+      "teacher_answer": "Check the user permissions and access settings. Ensure that the requested feature is enabled in your account settings.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.756,
+      "student_answer": "CloudDesk features are designed for users with the necessary permissions. If you can't access a feature, check the permissions required to access that feature and ensure you have the necessary permissions.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.126
+    },
+    {
+      "prompt": "Can I delete my CloudDesk account?",
+      "teacher_answer": "To delete your account, please contact support.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 0.388,
+      "student_answer": "Your account can be deleted. To do this, please contact CloudDesk customer support, providing your account details and confirming the deletion.",
+      "student_rouge_l": null,
+      "student_latency_s": 0.851
+    },
+    {
+      "prompt": "How do I report a bug in CloudDesk?",
+      "teacher_answer": "You can report a bug using the \"Help\" section in the CloudDesk app. Select the issue you want to report and describe the problem. Click the \"Submit\" button to submit the report.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.429,
+      "student_answer": "To report a bug, please describe the issue in detail. Include any relevant information, such as screenshots or timestamps. CloudDesk will review your report and contact you if needed.",
+      "student_rouge_l": null,
+      "student_latency_s": 1.11
+    },
+    {
+      "prompt": "Can I request a new feature for CloudDesk?",
+      "teacher_answer": "You can submit requests for new features through the CloudDesk portal. Check the documentation for available features and follow the submission guidelines.",
+      "teacher_rouge_l": null,
+      "teacher_latency_s": 1.036,
+      "student_answer": "Yes, you can submit feature requests through the CloudDesk feedback system. What features are you looking for?",
+      "student_rouge_l": null,
+      "student_latency_s": 0.953
+    }
+  ]
+}

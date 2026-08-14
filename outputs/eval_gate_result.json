@@ -1,0 +1,8 @@
+{
+  "model_path": "/content/extracted/fine_tuning_distillation_llmops-main/fine_tuning/outputs/lora-adapter",
+  "avg_rouge_l": 0.294,
+  "avg_latency_s": 1.154,
+  "threshold": 0.2,
+  "max_latency": 15.0,
+  "passed": true
+}
